@@ -28,7 +28,7 @@ function Login() {
         }
         try {
             // const url = `https://deploy-mern-app-1-api.vercel.app/auth/login`;
-            const url="http://localhost:8080/auth/login";
+            const url="https://last-auth-api.vercel.app/auth/login";
 
             const response = await fetch(url, {
                 method: "POST",
