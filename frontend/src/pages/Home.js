@@ -24,7 +24,7 @@ function Home() {
         try {
     //         // const url = "https://deploy-mern-app-1-api.vercel.app/products";
 
-            const url = "http://localhost:8080/products";
+            const url = "https://last-auth-api.vercel.app/products";
             const headers = {
                 headers: {
                     'Authorization': localStorage.getItem('token')
